@@ -17,6 +17,7 @@ export default function Login() {
     }
     catch(err){
       window.M.toast({html: err.message, classes:"green"})
+      console.log("check here")
     }
    
 
